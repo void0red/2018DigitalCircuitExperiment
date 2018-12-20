@@ -1,0 +1,86 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst hps.hps_0.sdrctl -pg 1
+preplace inst hps.g -pg 1 -lvl 3 -y 2130
+preplace inst hps.hps_0.nand0 -pg 1
+preplace inst hps.h -pg 1 -lvl 3 -y 1630
+preplace inst hps.hps_0.clkmgr -pg 1
+preplace inst hps.hps_0.axi_ocram -pg 1
+preplace inst hps.hps_0.gpio0 -pg 1
+preplace inst hps.hps_0.gpio1 -pg 1
+preplace inst hps.hps_0 -pg 1 -lvl 2 -y 1230
+preplace inst hps.hps_0.arm_a9_0 -pg 1
+preplace inst hps.hps_0.hps_io.border -pg 1
+preplace inst hps.hps_0.gpio2 -pg 1
+preplace inst hps.hps_0.dma -pg 1
+preplace inst hps.hps_0.usb0 -pg 1
+preplace inst hps.hps_0.arm_a9_1 -pg 1
+preplace inst hps.hps_0.gmac0 -pg 1
+preplace inst hps.c_init -pg 1 -lvl 3 -y 750
+preplace inst hps.hps_0.gmac1 -pg 1
+preplace inst hps.h_init -pg 1 -lvl 3 -y 1730
+preplace inst hps.hps_0.usb1 -pg 1
+preplace inst hps.hps_0.uart0 -pg 1
+preplace inst hps.hps_0.uart1 -pg 1
+preplace inst hps.hps_0.eosc1 -pg 1
+preplace inst hps.hps_0.eosc2 -pg 1
+preplace inst hps.K -pg 1 -lvl 3 -y 1150
+preplace inst hps.CNT_N -pg 1 -lvl 3 -y 150
+preplace inst hps.hps_0.scu -pg 1
+preplace inst hps.M -pg 1 -lvl 3 -y 1390
+preplace inst hps -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst hps.hps_0.fpga_interfaces -pg 1
+preplace inst hps.interrupt -pg 1 -lvl 3 -y 30
+preplace inst hps.hps_0.timer -pg 1
+preplace inst hps.b_init -pg 1 -lvl 3 -y 550
+preplace inst hps.hps_0.i2c0 -pg 1
+preplace inst hps.hps_0.hps_io -pg 1
+preplace inst hps.hps_0.i2c1 -pg 1
+preplace inst hps.hps_0.i2c2 -pg 1
+preplace inst hps.hps_0.i2c3 -pg 1
+preplace inst hps.hps_0.f2s_sdram_ref_clk -pg 1
+preplace inst hps.hps_0.sdmmc -pg 1
+preplace inst hps.g_init -pg 1 -lvl 3 -y 1530
+preplace inst hps.hps_0.fpgamgr -pg 1
+preplace inst hps.start -pg 1 -lvl 3 -y 1290
+preplace inst hps.hps_0.axi_sdram -pg 1
+preplace inst hps.hps_0.l3regs -pg 1
+preplace inst hps.hps_0.f2s_periph_ref_clk -pg 1
+preplace inst hps.hps_0.sysmgr -pg 1
+preplace inst hps.e_init -pg 1 -lvl 3 -y 1830
+preplace inst hps.a_init -pg 1 -lvl 3 -y 350
+preplace inst hps.d_init -pg 1 -lvl 3 -y 950
+preplace inst hps.hps_0.dcan0 -pg 1
+preplace inst hps.hps_0.dcan1 -pg 1
+preplace inst hps.hps_0.rstmgr -pg 1
+preplace inst hps.hps_0.clk_0 -pg 1
+preplace inst hps.hps_0.timer0 -pg 1
+preplace inst hps.hps_0.wd_timer0 -pg 1
+preplace inst hps.hps_0.timer1 -pg 1
+preplace inst hps.hps_0.wd_timer1 -pg 1
+preplace inst hps.hps_0.arm_gic_0 -pg 1
+preplace inst hps.hps_0.timer2 -pg 1
+preplace inst hps.hps_0.bridges -pg 1
+preplace inst hps.a -pg 1 -lvl 3 -y 250
+preplace inst hps.hps_0.spim0 -pg 1
+preplace inst hps.hps_0.timer3 -pg 1
+preplace inst hps.f_init -pg 1 -lvl 3 -y 2030
+preplace inst hps.b -pg 1 -lvl 3 -y 450
+preplace inst hps.hps_0.spim1 -pg 1
+preplace inst hps.clk_0 -pg 1 -lvl 1 -y 1160
+preplace inst hps.hps_0.qspi -pg 1
+preplace inst hps.c -pg 1 -lvl 3 -y 650
+preplace inst hps.hps_0.L2 -pg 1
+preplace inst hps.d -pg 1 -lvl 3 -y 850
+preplace inst hps.e -pg 1 -lvl 3 -y 1050
+preplace inst hps.f -pg 1 -lvl 3 -y 1930
+preplace netloc FAN_OUT<net_container>hps</net_container>(SLAVE)K.reset2,(MASTER)clk_0.clk_reset,(SLAVE)c.reset,(SLAVE)b.reset,(SLAVE)d.reset,(SLAVE)a.reset,(SLAVE)b_init.reset,(SLAVE)K.reset1,(SLAVE)h.reset,(SLAVE)start.reset,(SLAVE)M.reset1,(SLAVE)f_init.reset,(SLAVE)e_init.reset,(SLAVE)f.reset,(SLAVE)e.reset,(SLAVE)CNT_N.reset,(SLAVE)g_init.reset,(SLAVE)h_init.reset,(SLAVE)d_init.reset,(SLAVE)a_init.reset,(SLAVE)g.reset,(SLAVE)interrupt.reset,(SLAVE)M.reset2,(SLAVE)c_init.reset) 1 1 2 N 1190 610
+preplace netloc POINT_TO_POINT<net_container>hps</net_container>(MASTER)hps_0.f2h_irq0,(SLAVE)interrupt.irq) 1 2 1 590
+preplace netloc FAN_OUT<net_container>hps</net_container>(SLAVE)a_init.s1,(SLAVE)g_init.s1,(SLAVE)c_init.s1,(SLAVE)b_init.s1,(SLAVE)e.s1,(SLAVE)g.s1,(MASTER)hps_0.h2f_lw_axi_master,(SLAVE)h_init.s1,(SLAVE)d.s1,(SLAVE)f.s1,(SLAVE)start.s1,(SLAVE)d_init.s1,(SLAVE)f_init.s1,(SLAVE)a.s1,(SLAVE)c.s1,(SLAVE)e_init.s1,(SLAVE)b.s1,(SLAVE)CNT_N.s1,(SLAVE)interrupt.s1,(SLAVE)h.s1) 1 2 1 630
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)hps.reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)hps_0.memory,(SLAVE)hps.memory) 1 0 2 NJ 1300 NJ
+preplace netloc FAN_OUT<net_container>hps</net_container>(MASTER)hps_0.h2f_axi_master,(SLAVE)M.s1,(SLAVE)K.s1) 1 2 1 670
+preplace netloc EXPORT<net_container>hps</net_container>(SLAVE)clk_0.clk_in,(SLAVE)hps.clk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>hps</net_container>(SLAVE)d.clk,(SLAVE)hps_0.h2f_lw_axi_clock,(SLAVE)d_init.clk,(SLAVE)M.clk2,(SLAVE)e.clk,(SLAVE)b_init.clk,(SLAVE)g.clk,(SLAVE)f.clk,(SLAVE)K.clk2,(MASTER)clk_0.clk,(SLAVE)f_init.clk,(SLAVE)c.clk,(SLAVE)c_init.clk,(SLAVE)h_init.clk,(SLAVE)h.clk,(SLAVE)a_init.clk,(SLAVE)b.clk,(SLAVE)interrupt.clk,(SLAVE)e_init.clk,(SLAVE)start.clk,(SLAVE)hps_0.h2f_axi_clock,(SLAVE)CNT_N.clk,(SLAVE)g_init.clk,(SLAVE)K.clk1,(SLAVE)a.clk,(SLAVE)M.clk1) 1 1 2 260 1370 650
+levelinfo -pg 1 0 50 860
+levelinfo -hier hps 60 90 400 700 850

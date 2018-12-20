@@ -1,0 +1,302 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\Quincy\Desktop\test\hps.qsys --block-symbol-file --output-directory=C:\Users\Quincy\Desktop\test\hps --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading test/hps.qsys
+Progress: Reading input file
+Progress: Adding CNT_N [altera_avalon_pio 16.1]
+Progress: Parameterizing module CNT_N
+Progress: Adding K [altera_avalon_onchip_memory2 16.1]
+Progress: Parameterizing module K
+Progress: Adding M [altera_avalon_onchip_memory2 16.1]
+Progress: Parameterizing module M
+Progress: Adding a [altera_avalon_pio 16.1]
+Progress: Parameterizing module a
+Progress: Adding a_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module a_init
+Progress: Adding b [altera_avalon_pio 16.1]
+Progress: Parameterizing module b
+Progress: Adding b_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module b_init
+Progress: Adding c [altera_avalon_pio 16.1]
+Progress: Parameterizing module c
+Progress: Adding c_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module c_init
+Progress: Adding clk_0 [clock_source 16.1]
+Progress: Parameterizing module clk_0
+Progress: Adding d [altera_avalon_pio 16.1]
+Progress: Parameterizing module d
+Progress: Adding d_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module d_init
+Progress: Adding e [altera_avalon_pio 16.1]
+Progress: Parameterizing module e
+Progress: Adding e_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module e_init
+Progress: Adding f [altera_avalon_pio 16.1]
+Progress: Parameterizing module f
+Progress: Adding f_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module f_init
+Progress: Adding g [altera_avalon_pio 16.1]
+Progress: Parameterizing module g
+Progress: Adding g_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module g_init
+Progress: Adding h [altera_avalon_pio 16.1]
+Progress: Parameterizing module h
+Progress: Adding h_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module h_init
+Progress: Adding hps_0 [altera_hps 16.1]
+Progress: Parameterizing module hps_0
+Progress: Adding interrupt [altera_avalon_pio 16.1]
+Progress: Parameterizing module interrupt
+Progress: Adding start [altera_avalon_pio 16.1]
+Progress: Parameterizing module start
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: hps.CNT_N: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.a: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.a_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.b: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.b_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.c: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.c_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.d: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.d_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.e: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.e_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.f: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.f_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.g: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.g_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.h: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.h_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.hps_0: HPS Main PLL counter settings: n = 0  m = 73
+Info: hps.hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: hps.hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: hps.hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Warning: hps.hps_0: ODT is disabled. Enabling ODT (Mode Register 1) may improve signal integrity
+Warning: hps.hps_0: set_interface_assignment: Interface "hps_io" does not exist
+Info: hps.interrupt: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.start: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: hps.CNT_N: CNT_N.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.a: a.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.a_init: a_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.b: b.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.b_init: b_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.c: c.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.c_init: c_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.d: d.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.d_init: d_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.e: e.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.e_init: e_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.f: f.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.f_init: f_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.g: g.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.g_init: g_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.h: h.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.h_init: h_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.hps_0: hps_0.h2f_mpu_events must be exported, or connected to a matching conduit.
+Warning: hps.interrupt: interrupt.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.start: start.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.K: K.s2 must be connected to an Avalon-MM master
+Warning: hps.M: M.s2 must be connected to an Avalon-MM master
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\Quincy\Desktop\test\hps.qsys --synthesis=VHDL --output-directory=C:\Users\Quincy\Desktop\test\hps\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading test/hps.qsys
+Progress: Reading input file
+Progress: Adding CNT_N [altera_avalon_pio 16.1]
+Progress: Parameterizing module CNT_N
+Progress: Adding K [altera_avalon_onchip_memory2 16.1]
+Progress: Parameterizing module K
+Progress: Adding M [altera_avalon_onchip_memory2 16.1]
+Progress: Parameterizing module M
+Progress: Adding a [altera_avalon_pio 16.1]
+Progress: Parameterizing module a
+Progress: Adding a_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module a_init
+Progress: Adding b [altera_avalon_pio 16.1]
+Progress: Parameterizing module b
+Progress: Adding b_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module b_init
+Progress: Adding c [altera_avalon_pio 16.1]
+Progress: Parameterizing module c
+Progress: Adding c_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module c_init
+Progress: Adding clk_0 [clock_source 16.1]
+Progress: Parameterizing module clk_0
+Progress: Adding d [altera_avalon_pio 16.1]
+Progress: Parameterizing module d
+Progress: Adding d_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module d_init
+Progress: Adding e [altera_avalon_pio 16.1]
+Progress: Parameterizing module e
+Progress: Adding e_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module e_init
+Progress: Adding f [altera_avalon_pio 16.1]
+Progress: Parameterizing module f
+Progress: Adding f_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module f_init
+Progress: Adding g [altera_avalon_pio 16.1]
+Progress: Parameterizing module g
+Progress: Adding g_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module g_init
+Progress: Adding h [altera_avalon_pio 16.1]
+Progress: Parameterizing module h
+Progress: Adding h_init [altera_avalon_pio 16.1]
+Progress: Parameterizing module h_init
+Progress: Adding hps_0 [altera_hps 16.1]
+Progress: Parameterizing module hps_0
+Progress: Adding interrupt [altera_avalon_pio 16.1]
+Progress: Parameterizing module interrupt
+Progress: Adding start [altera_avalon_pio 16.1]
+Progress: Parameterizing module start
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: hps.CNT_N: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.a: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.a_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.b: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.b_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.c: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.c_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.d: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.d_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.e: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.e_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.f: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.f_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.g: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.g_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.h: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.h_init: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.hps_0: HPS Main PLL counter settings: n = 0  m = 73
+Info: hps.hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: hps.hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: hps.hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Warning: hps.hps_0: ODT is disabled. Enabling ODT (Mode Register 1) may improve signal integrity
+Warning: hps.hps_0: set_interface_assignment: Interface "hps_io" does not exist
+Info: hps.interrupt: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: hps.start: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: hps.CNT_N: CNT_N.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.a: a.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.a_init: a_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.b: b.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.b_init: b_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.c: c.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.c_init: c_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.d: d.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.d_init: d_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.e: e.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.e_init: e_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.f: f.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.f_init: f_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.g: g.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.g_init: g_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.h: h.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.h_init: h_init.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.hps_0: hps_0.h2f_mpu_events must be exported, or connected to a matching conduit.
+Warning: hps.interrupt: interrupt.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.start: start.external_connection must be exported, or connected to a matching conduit.
+Warning: hps.K: K.s2 must be connected to an Avalon-MM master
+Warning: hps.M: M.s2 must be connected to an Avalon-MM master
+Info: hps: Generating hps "hps" for QUARTUS_SYNTH
+Warning: hps_0.f2h_irq0: Cannot connect clock for irq_mapper.sender
+Warning: hps_0.f2h_irq0: Cannot connect reset for irq_mapper.sender
+Warning: hps_0.f2h_irq1: Cannot connect clock for irq_mapper_001.sender
+Warning: hps_0.f2h_irq1: Cannot connect reset for irq_mapper_001.sender
+Info: CNT_N: Starting RTL generation for module 'hps_CNT_N'
+Info: CNT_N:   Generation command is [exec C:/intelfpga/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/16.1/quartus/bin64/perl/lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=hps_CNT_N --dir=C:/Users/Quincy/AppData/Local/Temp/alt7871_4206782394958139345.dir/0001_CNT_N_gen/ --quartus_dir=C:/intelfpga/16.1/quartus --verilog --config=C:/Users/Quincy/AppData/Local/Temp/alt7871_4206782394958139345.dir/0001_CNT_N_gen//hps_CNT_N_component_configuration.pl  --do_build_sim=0  ]
+Info: CNT_N: Done RTL generation for module 'hps_CNT_N'
+Info: CNT_N: "hps" instantiated altera_avalon_pio "CNT_N"
+Info: K: Starting RTL generation for module 'hps_K'
+Info: K:   Generation command is [exec C:/intelfpga/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/16.1/quartus/bin64/perl/lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=hps_K --dir=C:/Users/Quincy/AppData/Local/Temp/alt7871_4206782394958139345.dir/0002_K_gen/ --quartus_dir=C:/intelfpga/16.1/quartus --verilog --config=C:/Users/Quincy/AppData/Local/Temp/alt7871_4206782394958139345.dir/0002_K_gen//hps_K_component_configuration.pl  --do_build_sim=0  ]
+Info: K: Done RTL generation for module 'hps_K'
+Info: K: "hps" instantiated altera_avalon_onchip_memory2 "K"
+Info: M: Starting RTL generation for module 'hps_M'
+Info: M:   Generation command is [exec C:/intelfpga/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/16.1/quartus/bin64/perl/lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=hps_M --dir=C:/Users/Quincy/AppData/Local/Temp/alt7871_4206782394958139345.dir/0003_M_gen/ --quartus_dir=C:/intelfpga/16.1/quartus --verilog --config=C:/Users/Quincy/AppData/Local/Temp/alt7871_4206782394958139345.dir/0003_M_gen//hps_M_component_configuration.pl  --do_build_sim=0  ]
+Info: M: Done RTL generation for module 'hps_M'
+Info: M: "hps" instantiated altera_avalon_onchip_memory2 "M"
+Info: a: Starting RTL generation for module 'hps_a'
+Info: a:   Generation command is [exec C:/intelfpga/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/16.1/quartus/bin64/perl/lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=hps_a --dir=C:/Users/Quincy/AppData/Local/Temp/alt7871_4206782394958139345.dir/0004_a_gen/ --quartus_dir=C:/intelfpga/16.1/quartus --verilog --config=C:/Users/Quincy/AppData/Local/Temp/alt7871_4206782394958139345.dir/0004_a_gen//hps_a_component_configuration.pl  --do_build_sim=0  ]
+Info: a: Done RTL generation for module 'hps_a'
+Info: a: "hps" instantiated altera_avalon_pio "a"
+Info: hps_0: "Running  for module: hps_0"
+Info: hps_0: HPS Main PLL counter settings: n = 0  m = 73
+Info: hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Warning: hps_0: ODT is disabled. Enabling ODT (Mode Register 1) may improve signal integrity
+Warning: hps_0: set_interface_assignment: Interface "hps_io" does not exist
+Info: hps_0: "hps" instantiated altera_hps "hps_0"
+Info: interrupt: Starting RTL generation for module 'hps_interrupt'
+Info: interrupt:   Generation command is [exec C:/intelfpga/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/16.1/quartus/bin64/perl/lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=hps_interrupt --dir=C:/Users/Quincy/AppData/Local/Temp/alt7871_4206782394958139345.dir/0005_interrupt_gen/ --quartus_dir=C:/intelfpga/16.1/quartus --verilog --config=C:/Users/Quincy/AppData/Local/Temp/alt7871_4206782394958139345.dir/0005_interrupt_gen//hps_interrupt_component_configuration.pl  --do_build_sim=0  ]
+Info: interrupt: Done RTL generation for module 'hps_interrupt'
+Info: interrupt: "hps" instantiated altera_avalon_pio "interrupt"
+Info: start: Starting RTL generation for module 'hps_start'
+Info: start:   Generation command is [exec C:/intelfpga/16.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga/16.1/quartus/bin64/perl/lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin/europa -I C:/intelfpga/16.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga/16.1/quartus/sopc_builder/bin -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=hps_start --dir=C:/Users/Quincy/AppData/Local/Temp/alt7871_4206782394958139345.dir/0006_start_gen/ --quartus_dir=C:/intelfpga/16.1/quartus --verilog --config=C:/Users/Quincy/AppData/Local/Temp/alt7871_4206782394958139345.dir/0006_start_gen//hps_start_component_configuration.pl  --do_build_sim=0  ]
+Info: start: Done RTL generation for module 'hps_start'
+Info: start: "hps" instantiated altera_avalon_pio "start"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "hps" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_012: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_013: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_015: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_016: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_017: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_018: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_1: "hps" instantiated altera_mm_interconnect "mm_interconnect_1"
+Info: irq_mapper: "hps" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_mapper_001: "hps" instantiated altera_irq_mapper "irq_mapper_001"
+Info: rst_controller: "hps" instantiated altera_reset_controller "rst_controller"
+Info: fpga_interfaces: "hps_0" instantiated altera_interface_generator "fpga_interfaces"
+Info: hps_io: "hps_0" instantiated altera_hps_io "hps_io"
+Info: K_s1_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "K_s1_translator"
+Info: hps_0_h2f_axi_master_agent: "mm_interconnect_0" instantiated altera_merlin_axi_master_ni "hps_0_h2f_axi_master_agent"
+Info: K_s1_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "K_s1_agent"
+Info: K_s1_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "K_s1_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: hps_0_h2f_axi_master_wr_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "hps_0_h2f_axi_master_wr_limiter"
+Info: Reusing file C:/Users/Quincy/Desktop/test/hps/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: K_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "K_s1_burst_adapter"
+Info: Reusing file C:/Users/Quincy/Desktop/test/hps/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/Quincy/Desktop/test/hps/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Quincy/Desktop/test/hps/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: router: "mm_interconnect_1" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_1" instantiated altera_merlin_router "router_002"
+Info: cmd_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: Reusing file C:/Users/Quincy/Desktop/test/hps/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Quincy/Desktop/test/hps/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_1" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: border: "hps_io" instantiated altera_interface_generator "border"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: hps: Done "hps" with 38 modules, 98 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
